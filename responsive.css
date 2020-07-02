@@ -1,0 +1,95 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .main-title h1{
+    font-size:32px;
+  }
+  .nav-link{
+      padding-right: 5px;
+  }
+  .nav-link a{
+      padding: 0px 20px;
+  }
+  .login{
+      margin-left:20px ;
+  }
+  .main-title h1{
+      position: relative;
+      margin-top: -50px;
+  }
+  .budapes{
+      margin-left: -200px;
+  }
+  .main-content{
+      width:45%;
+      margin:10px;
+  }
+  .copyright{
+      padding-top: 70px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .nav-link {
+    display: none;
+  }
+  .main-title{
+      margin-top: -50px;
+      margin-left: -50px;
+  }
+  .budapes{
+      margin-left: 50px;
+  }
+  .promo h3{
+      font-size: 12px;
+      margin-left: -250px;
+      margin-top: -10px;
+  }
+  .promo span{
+      font-size: 16px;
+  }
+  .promo a{
+      padding-left: 10px;
+  }
+  footer{
+    text-align:center;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .main-content{
+      width:100%;
+      margin-bottom:20px;
+  }
+
+  .sosmed{
+      float: none;
+      padding-top: 13px;
+      line-height: 0px;
+
+  }
+  footer h1{
+      float: none;
+      line-height: 10px;
+      padding-top: 20px;
+      font-size:24px;
+
+  }
+  .copyright{
+      padding-top: 40px;
+      line-height: 0px;
+  }
+}
+
+@media(max-width:480px){
+  .promo h3{
+      text-align: center;
+  }
+  .sosmed a{
+      font-size:10px;
+  }
+  footer h1{
+      font-size: 14px;
+  }
+}
